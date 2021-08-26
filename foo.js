@@ -1,7 +1,6 @@
 'use script';
-
-function foo(bar){
+function foo(bar) {
     return "Hello, " + bar;
 }
-let baz = "ABC";
+var baz = "ABC";
 console.log(foo(baz));
